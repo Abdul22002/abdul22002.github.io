@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdullrahman Alghanim | Resume</title>
+  <title>Abdullrahman Alghanim | Information Security</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
@@ -20,176 +20,69 @@
       color: #c9d1d9;
       line-height: 1.6;
       padding: 2rem;
-    }
-
-    header {
       text-align: center;
-      margin-bottom: 3rem;
     }
 
-    header h1 {
+    h1 {
       font-size: 3rem;
       font-weight: 800;
       color: #58a6ff;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      color: #8b949e;
-    }
-
-    section {
-      margin-bottom: 2.5rem;
+      margin-bottom: 0.5rem;
     }
 
     h2 {
-      color: #58a6ff;
-      margin-bottom: 0.5rem;
       font-size: 1.5rem;
-      border-bottom: 2px solid #30363d;
-      padding-bottom: 0.25rem;
+      font-weight: 600;
+      color: #8b949e;
+      margin-bottom: 2rem;
     }
 
-    ul {
-      list-style-type: none;
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
     }
 
-    li {
-      padding: 0.4rem 0;
-    }
-
-    .tag {
-      display: inline-block;
-      background-color: #21262d;
+    .social-link {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #161b22;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       color: #58a6ff;
-      padding: 0.3rem 0.7rem;
-      border-radius: 6px;
-      font-size: 0.85rem;
-      margin-right: 0.4rem;
-      margin-top: 0.3rem;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 0 12px rgba(88, 166, 255, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .social-link:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 18px rgba(88, 166, 255, 0.3);
     }
 
     footer {
-      text-align: center;
       margin-top: 3rem;
       font-size: 0.9rem;
       color: #6e7681;
     }
-
-    .container {
-      max-width: 880px;
-      margin: auto;
-    }
-
-    .contact {
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    .contact a {
-      color: #58a6ff;
-      text-decoration: none;
-      margin: 0 1rem;
-      transition: color 0.3s ease;
-    }
-
-    .contact a:hover {
-      color: #1f6feb;
-    }
-
-    .card {
-      background: #161b22;
-      padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 0 12px rgba(88, 166, 255, 0.05);
-      margin-bottom: 1.5rem;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 0 18px rgba(88, 166, 255, 0.15);
-    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Abdullrahman Alghanim</h1>
-      <p>Cybersecurity | UX Designer | Cloud Security | Java Developer</p>
-    </header>
+  <h1>Abdullrahman Alghanim</h1>
+  <h2>Information Security | University of South Florida</h2>
 
-    <section>
-      <h2>About Me</h2>
-      <div class="card">
-        <p>Innovative and driven technology professional with a strong foundation in cybersecurity, front-end development, and cloud infrastructure. Passionate about solving complex problems and creating beautiful, secure user experiences.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <div class="card">
-        <div>
-          <span class="tag">Java</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">HTML/CSS</span>
-          <span class="tag">AWS</span>
-          <span class="tag">Python</span>
-          <span class="tag">Figma</span>
-          <span class="tag">Penetration Testing</span>
-          <span class="tag">Network Security</span>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <div class="card">
-        <h3>Security Intern – Tech Company</h3>
-        <p><em>June 2024 – August 2024</em></p>
-        <ul>
-          <li>Conducted vulnerability assessments and penetration tests on internal systems</li>
-          <li>Documented findings and provided remediation plans</li>
-          <li>Worked alongside the DevSecOps team to implement secure CI/CD pipelines</li>
-        </ul>
-      </div>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <div class="card">
-        <h3>BS in Information Science – University of South Florida</h3>
-        <p>Expected Graduation: 2025</p>
-        <p>Relevant Courses: Network Security, UX Design, Cloud Systems, Secure Programming</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-      <div class="card">
-        <h3>Secure File Storage System</h3>
-        <p>Built a Java-based application with encryption and role-based access to securely store user data in the cloud.</p>
-      </div>
-      <div class="card">
-        <h3>Code Quest</h3>
-        <p>Created an educational puzzle game to teach beginners Python through interactive coding challenges and rewards.</p>
-      </div>
-      <div class="card">
-        <h3>Risk Management Video Presentation</h3>
-        <p>Produced a professional video presentation explaining risk management frameworks, risk identification, and treatment strategies with clear visuals and references.</p>
-      </div>
-    </section>
-
-    <div class="contact">
-      <p>Connect with me:</p>
-      <a href="mailto:alghanim.abdullrahman@gmail.com">Email</a>
-      <a href="https://github.com/Abdul22002" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/abdul-alghanim/" target="_blank">LinkedIn</a>
-    </div>
-
-    <footer>
-      <p>&copy; 2025 Abdullrahman Alghanim. All rights reserved.</p>
-    </footer>
+  <div class="socials">
+    <a class="social-link" href="https://github.com/Abdul22002" target="_blank">GitHub</a>
+    <a class="social-link" href="https://www.linkedin.com/in/abdul-alghanim/" target="_blank">LinkedIn</a>
+    <a class="social-link" href="resume.pdf" target="_blank">Resume</a>
   </div>
+
+  <footer>
+    <p>&copy; 2025 Abdullrahman Alghanim</p>
+  </footer>
 </body>
 </html>
