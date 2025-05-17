@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulrahman Alghanim - Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-right: 10px;
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .project-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .project-description {
+            margin-bottom: 10px;
+        }
+        .project-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Abdulrahman Alghanim</h1>
+    <p>Aspiring cybersecurity professional with a strong foundation in information security principles and practical project experience.</p>
+
+    <div>
+        <a href="https://www.linkedin.com/in/abdul-alghanim" class="link-button">Connect on LinkedIn</a>
+        <a href="https://github.com/Abdul22002" class="link-button">View My GitHub</a>
+    </div>
+
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3 class="project-title">Secure File Storage System - Java</h3>
+        <p class="project-description">Developed a secure file storage system using AES encryption and Java Swing UI, implementing user authentication and access control for multi-user environments.</p>
+        <a href="https://github.com/Abdul22002/your-java-project-repo" class="project-link">View on GitHub</a>
+    </div>
+
+    <div class="project">
+        <h3 class="project-title">Web Scraper - Python</h3>
+        <p class="project-description">Built a Python scraper to extract structured data from e-commerce websites, utilizing libraries such as requests, BeautifulSoup, and pandas for scraping, parsing, and data handling.</p>
+        <a href="https://github.com/Abdul22002/your-python-project-repo" class="project-link">View on GitHub</a>
+    </div>
+
+    </body>
+</html>
