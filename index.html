@@ -37,17 +37,18 @@
       margin-bottom: 2rem;
     }
 
-    .socials {
+    .socials, .docs {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
-      gap: 2rem;
+      gap: 1rem;
       margin-top: 2rem;
     }
 
-    .social-link {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
+    .social-link, .doc-link {
+      min-width: 150px;
+      padding: 1rem;
+      border-radius: 12px;
       background-color: #161b22;
       display: flex;
       align-items: center;
@@ -59,8 +60,8 @@
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .social-link:hover {
-      transform: scale(1.1);
+    .social-link:hover, .doc-link:hover {
+      transform: scale(1.05);
       box-shadow: 0 0 18px rgba(88, 166, 255, 0.3);
     }
 
@@ -79,6 +80,20 @@
     <a class="social-link" href="https://github.com/Abdul22002" target="_blank">GitHub</a>
     <a class="social-link" href="https://www.linkedin.com/in/abdul-alghanim/" target="_blank">LinkedIn</a>
     <a class="social-link" href="resume.pdf" target="_blank">Resume</a>
+  </div>
+
+  <div class="docs">
+    <a class="doc-link" href="Lab 04 threat model.docx" target="_blank">Lab 04 - Threat Model</a>
+    <a class="doc-link" href="Lab 6 hacking linux.docx" target="_blank">Lab 06 - Hacking Linux</a>
+    <a class="doc-link" href="LAB 07 - Web Server Log Analysis.docx" target="_blank">Lab 07 - Web Server Log Analysis</a>
+    <a class="doc-link" href="LAB 9 Windows System Hardening.docx" target="_blank">Lab 09 - Windows System Hardening</a>
+    <a class="doc-link" href="LAB 10 - Linux System Hardening.docx" target="_blank">Lab 10 - Linux System Hardening</a>
+    <a class="doc-link" href="LAB 10 - Malware Analysis.docx" target="_blank">Lab 10 - Malware Analysis</a>
+    <a class="doc-link" href="LAB 11 - Incident Response Threat Hunt.docx" target="_blank">Lab 11 - Incident Response Threat Hunt</a>
+    <a class="doc-link" href="LAB 11 - Windows Forensics & Logging.docx" target="_blank">Lab 11 - Windows Forensics & Logging</a>
+    <a class="doc-link" href="LAB 12 - Linux Forensics & Logging.docx" target="_blank">Lab 12 - Linux Forensics & Logging</a>
+    <a class="doc-link" href="LAB 12 - Social Engineering.docx" target="_blank">Lab 12 - Social Engineering</a>
+    <a class="doc-link" href="LAB 13 - Internet of Things (IoT).docx" target="_blank">Lab 13 - Internet of Things (IoT)</a>
   </div>
 
   <footer>
